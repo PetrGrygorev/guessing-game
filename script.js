@@ -1,6 +1,6 @@
-alert('Загадайте любое целое число от минимального значения до максимального, а я его угадаю');
 let minValue = parseInt(prompt('Минимальное значение числа для игры'));
 let maxValue = parseInt(prompt('Максимальное значение числа для игры'));
+alert(`Загадайте любое целое число от ${minValue} до ${maxValue}, а я его угадаю`);
 
 if (Number.isNaN(minValue) || Number.isNaN(maxValue)) {
     minValue = 0;
@@ -41,9 +41,9 @@ if (gameRun) {
 }
 
 document.getElementById('btnRetry').addEventListener('click', function () {
-    alert('Загадайте любое целое число от минимального значения до максимального, а я его угадаю');
     minValue = parseInt(prompt('Минимальное значение числа для игры'));
     maxValue = parseInt(prompt('Максимальное значение числа для игры'));
+    alert(`Загадайте любое целое число от ${minValue} до ${maxValue}, а я его угадаю`);
 
     if (Number.isNaN(minValue) || Number.isNaN(maxValue)) {
         minValue = 0;
