@@ -1,4 +1,37 @@
-.game-card {
+.hero-image {
+    width: 100vw;
     height: 100vh;
-    font-family: 'Open Sans', monospace;
+    background-image: url(images/Tkanina-bawelniana-100-Material-DRUKI-400-wzorow.jpeg);
+    background-position: center center;
+    background-size: cover;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;   
+    box-sizing: border-box; 
+    margin-left: 5vw;
+    padding-left: 3.45rem;
+    background-color: beige;
+    width: 25%;
+    height: fit-content;
+}
+.card-header {
+    height: 3rem;
+    width: 10rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.7rem;
+}
+.card-title {
+    height: 4rem;
+    width: 20rem;
+    margin-bottom: 3rem;
+    color: rgb(124, 26, 100);
+    font-size: 1.2rem;
+}
+.btn {
+    color:darkgrey;
+    font-size: 1.25rem;
 }
